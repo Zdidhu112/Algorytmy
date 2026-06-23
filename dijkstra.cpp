@@ -28,7 +28,7 @@ void Dijkstra(int v) {
 }
 int main()
 {
-    i.os_base::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
 	  cin.tie(0);
     int n, m;
     int a, b, w;
