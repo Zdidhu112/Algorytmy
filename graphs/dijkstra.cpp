@@ -10,7 +10,7 @@ vector<int> odwiedzone;
 vector<int> skad_przychodzimy;
 void Dijkstra(int v) {
     int u;
-    priority_queue<pair<int, int>> kolejka;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> kolejka;
     odleglosc[v] = 0;
     skad_przychodzimy[v] = v;
     kolejka.push({0, v});
